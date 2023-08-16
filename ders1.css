@@ -1,56 +1,136 @@
-table, td, th{
-    border: 1px solid;
-    border-color: brown;
-    padding: 10px;
-    column-rule: 400px;
-    column-rule-width: 20px;
-}
-tr:nth-child(1){
-    background-color: aquamarine;
-    color: blue;
-    text-align: center;
-}
-th{
-    background-color: antiquewhite;
-    color:black
 
+input{
+    position:absolute;
+    top: -99999px;
+    left: -99999px;
 }
-tr:nth-child(2){
-    background-color: blueviolet;
-    color: yellow;
-    text-align: center;
-}
-tr:nth-child(5){
-    background-color:coral;
-    color: darkblue;
-    text-align: center;
-}
-tr:nth-child(4){
-    background-color: burlywood;
-    color:black;
-    text-align: center;
-}
-tr:nth-child(3){
-    background-color: pink;
-    color: chocolate;
-    text-align: center;
-}
-td:nth-child(6){background-color: crimson; color: yellow;}
-tfoot{
-    position: relative;
-    left: 400px;
-    top: 1000px;
-}
-table{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
+.label { 
+    -webkit-appearance: push-button;
+    -moz-appearance: button; 
+    display: inline-block;
+    margin: 60px 0 10px 0;
+    cursor: pointer;
     position: absolute;
-    z-index: 1;
+    left: 170px;
+
+  }
+#listferhat{
+    visibility: hidden;
+    background-color: burlywood;
+    color: purple;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    font-size: 16px;
+}
+#inferhat:checked ~ #listferhat{
+    visibility: visible;
+}
+li{
+    padding: 10px 30px;
+}
+#l2{
+    left: 430px;
+}
+#listrasid{
+    visibility: hidden;
+    background-color: burlywood;
+    color: purple;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 350px;
+    top: 100px;
+    font-size: 16px;
+}
+#inrasid:checked ~ #listrasid{
+    visibility: visible;
+}
+#listsimsek{
+    visibility: hidden;
+    background-color: burlywood;
+    color: purple;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    font-size: 16px;
+}
+#insimsek:checked ~ #listsimsek{
+    visibility: visible;
+}
+#l3{
+    left: 670px;
+}
+#insalih:checked ~ #listsalih{
+    visibility: visible;
+}
+#listsalih{
+    visibility: hidden;
+    background-color: burlywood;
+    color: purple;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 850px;
+    top: 100px;
+    font-size: 16px;
+}
+
+#l4{
+    left: 930px;
+}
+#insalih:checked ~ #listsalih{
+    visibility: visible;
+}
+#listsalih{
+    visibility: hidden;
+    background-color: burlywood;
+    color: purple;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 850px;
+    top: 100px;
+    font-size: 16px;
+}
+
+#l4{
+    left: 930px;
+}
+#inson:checked ~ #listson{
+    visibility: visible;
+}
+#listson{
+    visibility: hidden;
+    background-color: burlywood;
+    color: purple;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 420px;
+    top: 330px;
+    font-size: 30px;
+}
+
+#l5{
+    left: 520px;
     top: 250px;
-    background-color: aqua;
-    left: 300px;
+   
 }
-caption{
-    background-color: aqua;
+p{
+    visibility: hidden;
+    position: absolute;
+    left: 800px;
+    top: 400px;
+    font-size: 30px;
 }
+
+
+
+
+
+        
